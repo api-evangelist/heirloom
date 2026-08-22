@@ -64,5 +64,16 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Heirloom is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.hiive.com/securities/heirloom-stock
+Heirloom Carbon Technologies, Inc. is a direct air capture (DAC) company that removes carbon
+dioxide from the atmosphere by accelerating the natural mineralization of limestone, then
+permanently stores the captured CO2 underground or in concrete. It sells permanent carbon
+removal credits to individuals, businesses and enterprises.
+
+**No API surface.** As of 2026-08-22 Heirloom publishes no developer program, API,
+specification or SDK. Its 46-URL sitemap contains no developer or docs page, no
+`api.`/`docs.`/`developer.` subdomain resolves, and every `/openapi.json`, `/llms.txt`,
+`/graphql` and `/.well-known/*` probe returned 404 on both `www.heirloomcarbon.com` and the
+apex. This repository records that measured absence, plus a probed domain-security posture.
+
+- https://www.heirloomcarbon.com/
+- https://www.hiive.com/securities/heirloom-stock (secondary-market listing)

@@ -1,0 +1,18 @@
+generated: '2026-08-22'
+method: searched
+source: >-
+  npm registry search (registry.npmjs.org/-/v1/search?text=heirloomcarbon), PyPI
+  (pypi.org/pypi/heirloom/json), GitHub user/org lookup (api.github.com/users/HeirloomCarbon,
+  api.github.com/users/heirloom-carbon), GitHub user search "heirloom carbon", and the
+  heirloomcarbon.com sitemap (46 URLs, no developer or SDK page).
+package_count: 0
+packages: []
+note: >-
+  Heirloom Carbon Technologies publishes no first-party client libraries in any registry.
+  npm search for "heirloomcarbon" returned 0 results; the PyPI project named "heirloom"
+  (0.0.1, a prompt-management package by github.com/hexsyw) is UNRELATED and is deliberately
+  NOT recorded as a Heirloom package. A GitHub organization does exist at
+  https://github.com/HeirloomCarbon (blog field set to https://www.heirloomcarbon.com/, so it
+  is first-party) but it has 0 public repositories, so no GitHubOrganization pointer was wired
+  into apis.yml — an empty org publishes no code and must not score as a published developer
+  surface. This is an honest zero, not an unchecked gap.

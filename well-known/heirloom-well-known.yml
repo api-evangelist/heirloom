@@ -1,0 +1,44 @@
+generated: '2026-08-22'
+method: probed
+source: live probes of https://www.heirloomcarbon.com and https://heirloomcarbon.com
+note: >-
+  Every /.well-known/ path probed returned HTTP 404 with the Webflow origin's explicit
+  "Invalid .well-known request" body, so this host is NOT a catch-all that answers 200 for
+  every path — these are true negatives. No WellKnown or SecurityTxt pointer is wired into
+  apis.yml, because this file records an ABSENCE, not a served discovery surface. Heirloom
+  Carbon runs a marketing site on Webflow and no api./docs./developer. subdomain resolves.
+hit_count: 0
+hosts:
+- host: https://www.heirloomcarbon.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+  soft_404_control:
+    path: /.well-known/this-should-not-exist-404control
+    status: 404
+    bytes: 88
+    body: '<!DOCTYPE html><html>  <body>    <p>Invalid .well-known request</p>  </body></html>'
+- host: https://heirloomcarbon.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
