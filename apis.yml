@@ -10,6 +10,17 @@ description: >-
   to individuals, businesses and enterprises, and has signed offtake agreements with
   Microsoft, Frontier, United's Sustainable Flight Fund and CarbonCure. It is an industrial
   climate-technology company; it does not operate a public developer program or API.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://cdn.prod.website-files.com/639c8f646dc35afd81aeebc2/651aee726de0080273ee5ad9_Heirloom_SocialShare.jpg
 url: https://raw.githubusercontent.com/api-evangelist/heirloom/refs/heads/main/apis.yml
 x-type: company
