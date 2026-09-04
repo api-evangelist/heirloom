@@ -21,6 +21,18 @@ deliveryModel:
   - pricing
   generated: '2026-08-28'
   method: derived
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+  - security
+  generated: '2026-09-02'
+  method: derived
 image: https://cdn.prod.website-files.com/639c8f646dc35afd81aeebc2/651aee726de0080273ee5ad9_Heirloom_SocialShare.jpg
 url: https://raw.githubusercontent.com/api-evangelist/heirloom/refs/heads/main/apis.yml
 x-type: company
